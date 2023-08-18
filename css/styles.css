@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #1B2E58 0%, #2B1951 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3%;
+}
+
+.main .main__content {
+  width: 100%;
+  height: 100%;
+}
+.main .main__content .main__text {
+  text-align: center;
+}
+.main .main__content .main__text h1 {
+  color: #fff;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.main .main__content .main__text h1 img {
+  width: 2.5rem;
+}
+.main .main__content .main__text h2 {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.main .main__content div.main__infosContainer {
+  padding: 0 3%;
+  border-radius: 1.8rem;
+  background: white;
+  max-width: 40rem;
+  height: 40rem;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+}
+.main .main__content div.main__infosContainer .main__avatar {
+  padding-top: 4rem;
+}
+.main .main__content div.main__infosContainer .main__avatar img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  filter: drop-shadow(0.8rem 1.1rem 2.2rem rgba(0, 0, 0, 0.5));
+}
+.main .main__content div.main__infosContainer strong {
+  margin-top: 1.6rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #161616;
+}
+.main .main__content div.main__infosContainer p {
+  padding: 0.6rem 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.main .main__content div.main__infosContainer .main__location {
+  padding: 0.6rem 0 0.6rem;
+}
+.main .main__content div.main__infosContainer .main__followersAndFollowing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.main .main__content div.main__infosContainer .main__followersAndFollowing .main__followersGithub::after {
+  content: "|";
+  display: inline-block;
+  transform: translateX(0.9rem);
+}
+.main .main__content div.main__infosContainer .main__followersAndFollowing .main__followersGithub,
+.main .main__content div.main__infosContainer .main__followersAndFollowing .main__follwingGithub {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #070707;
+}
+
+form.input__search {
+  padding: 2%;
+  margin: auto;
+  position: relative;
+  width: fit-content;
+}
+form.input__search input {
+  width: 30rem;
+  height: 4rem;
+  padding-inline-start: 3.5rem;
+  color: #ffffff;
+  outline: none;
+  background-color: transparent;
+  border: 0.2rem solid #fff;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+form.input__search input::placeholder {
+  color: #fff;
+}
+form.input__search i {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
